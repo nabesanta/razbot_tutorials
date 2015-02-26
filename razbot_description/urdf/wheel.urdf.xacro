@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<robot name="razbot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Wheel macro definition. The entirety of the code below is reproduced
+  whenever the macro is called. We use 'params' to add additional arguments
+  to the macro call, which can be simple parameters, or entire code blocks.
+  See http://wiki.ros.org/xacro for more details. -->
+  <xacro:macro name="razbot_wheel" params="wheel_prefix *joint_pose">
+
+    <!-- Wheel link -->
+    <link name="${wheel_prefix}_wheel_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="${M_PI/2} 0 0" />
+        <geometry>
+          <cylinder length="${wheel_width}" radius="${wheel_radius}" />
+        </geometry>
+        <material name="Grey" />
+      </visual>
+    </link>
+
+    <!-- Wheel to base joint. This joint is continuous so that the wheel can
+    spin freely -->
+    <joint name="${wheel_prefix}_wheel" type="continuous">
+      <parent link="base_link"/>
+      <child link="${wheel_prefix}_wheel_link"/>
+      <xacro:insert_block name="joint_pose"/>
+      <axis xyz="0 1 0" rpy="0 0 0" />
+    </joint>
+
+  </xacro:macro>
+</robot>
