@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- This launch file is where any environment-agnostic (live or simulation)
+  components should be loaded, including controllers -->
+  <rosparam command="load" file="$(find razbot_control)/config/control.yaml" />
+
+  <!-- This node loads the two controllers into a controller manager (real or simulated). The
+  controllers are defined in config/control.yaml -->
+  <node name="razbot_controller_spawner" pkg="controller_manager" type="spawner"
+    args="razbot_joint_state_controller razbot_diff_drive_controller --shutdown-timeout 3"/>
+
+</launch>
