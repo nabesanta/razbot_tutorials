@@ -77,6 +77,10 @@
 
   </link>
 
+  <gazebo reference="base_link">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+
   <!-- Xacro is an XML macro language that allows us to save effort when creating similar
   XML blocks. Here, we create four wheels from the macro contained in the urdf/wheel.urdf.xacro
   file -->
