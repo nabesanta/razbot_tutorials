@@ -69,10 +69,10 @@
     to the origin of the link, so make sure the data you obtain is consistent -->
     <inertial>
       <origin xyz="0 0 0" />
-      <mass value="1.5" /> <!-- mass in kg -->
-      <inertia  ixx="0.01" ixy="0" ixz="0"
-                iyy="0.01" iyz="0"
-                izz="0.01" /> <!-- inertia around each axis pair -->
+      <mass value="0.857" /> <!-- mass in kg -->
+      <inertia  ixx="2.17" ixy="0" ixz="0"
+                iyy="3.09" iyz="0"
+                izz="4.76" /> <!-- inertia around each axis pair -->
     </inertial>
 
   </link>
