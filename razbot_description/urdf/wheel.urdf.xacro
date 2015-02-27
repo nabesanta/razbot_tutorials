@@ -5,15 +5,16 @@
   whenever the macro is called. We use 'params' to add additional arguments
   to the macro call, which can be simple parameters, or entire code blocks.
   See http://wiki.ros.org/xacro for more details. -->
-  <xacro:macro name="razbot_wheel" params="wheel_prefix *joint_pose">
+  <xacro:macro name="razbot_wheel" params="wheel_prefix flip *joint_pose">
 
     <!-- Wheel link -->
     <link name="${wheel_prefix}_wheel_link">
 
       <visual>
-        <origin xyz="0 0 0" rpy="${M_PI/2} 0 0" />
+        <!-- math-magic to get the wheel STLs to align -->
+        <origin xyz="${flip*wheel_radius} ${-flip*wheel_width/2} ${-wheel_radius}" rpy="${M_PI/2} 0 ${flip*M_PI/2+M_PI/2}" />
         <geometry>
-          <cylinder length="${wheel_width}" radius="${wheel_radius}" />
+          <mesh filename="package://razbot_description/meshes/wheel.stl" />
         </geometry>
         <material name="Grey" />
       </visual>

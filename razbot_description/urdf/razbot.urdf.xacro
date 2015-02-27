@@ -50,7 +50,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <box size="${base_length} ${base_width} ${base_height}"/>
+        <mesh filename="package://razbot_description/meshes/base.stl" />
       </geometry>
       <material name="Blue" />
     </visual>
@@ -85,16 +85,16 @@
   XML blocks. Here, we create four wheels from the macro contained in the urdf/wheel.urdf.xacro
   file -->
   <!-- Create wheels from macro -->
-  <xacro:razbot_wheel wheel_prefix="front_left">
+  <xacro:razbot_wheel wheel_prefix="front_left" flip="-1">
     <origin xyz="${wheel_base/2} ${wheel_track/2} ${wheel_vertical_offset}" rpy="0 0 0" />
   </xacro:razbot_wheel>
-  <xacro:razbot_wheel wheel_prefix="front_right">
+  <xacro:razbot_wheel wheel_prefix="front_right" flip="1">
     <origin xyz="${wheel_base/2} ${-wheel_track/2} ${wheel_vertical_offset}" rpy="0 0 0" />
   </xacro:razbot_wheel>
-  <xacro:razbot_wheel wheel_prefix="rear_left">
+  <xacro:razbot_wheel wheel_prefix="rear_left" flip="-1">
     <origin xyz="${-wheel_base/2} ${wheel_track/2} ${wheel_vertical_offset}" rpy="0 0 0" />
   </xacro:razbot_wheel>
-  <xacro:razbot_wheel wheel_prefix="rear_right">
+  <xacro:razbot_wheel wheel_prefix="rear_right" flip="1">
     <origin xyz="${-wheel_base/2} ${-wheel_track/2} ${wheel_vertical_offset}" rpy="0 0 0" />
   </xacro:razbot_wheel>
 
