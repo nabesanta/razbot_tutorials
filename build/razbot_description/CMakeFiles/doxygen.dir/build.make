@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/piezo/razbot_tutorials/src/razbot_description
+CMAKE_SOURCE_DIR = /home/nbtky/razbot_tutorials/src/razbot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/piezo/razbot_tutorials/build/razbot_description
+CMAKE_BINARY_DIR = /home/nbtky/razbot_tutorials/build/razbot_description
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/piezo/razbot_tutorials/build/razbot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piezo/razbot_tutorials/src/razbot_description /home/piezo/razbot_tutorials/src/razbot_description /home/piezo/razbot_tutorials/build/razbot_description /home/piezo/razbot_tutorials/build/razbot_description /home/piezo/razbot_tutorials/build/razbot_description/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nbtky/razbot_tutorials/build/razbot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nbtky/razbot_tutorials/src/razbot_description /home/nbtky/razbot_tutorials/src/razbot_description /home/nbtky/razbot_tutorials/build/razbot_description /home/nbtky/razbot_tutorials/build/razbot_description /home/nbtky/razbot_tutorials/build/razbot_description/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

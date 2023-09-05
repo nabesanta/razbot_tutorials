@@ -7,6 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/piezo/razbot_tutorials/devel/.private/razbot_description:$CMAKE_PREFIX_PATH"
-export PWD='/home/piezo/razbot_tutorials/build/razbot_description'
-export ROS_PACKAGE_PATH="/home/piezo/razbot_tutorials/src/razbot_description:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/nbtky/razbot_tutorials/devel/.private/razbot_description:$CMAKE_PREFIX_PATH"
+export PWD='/home/nbtky/razbot_tutorials/build/razbot_description'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/nbtky/razbot_tutorials/devel/.private/razbot_description/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/nbtky/razbot_tutorials/src/razbot_description:$ROS_PACKAGE_PATH"

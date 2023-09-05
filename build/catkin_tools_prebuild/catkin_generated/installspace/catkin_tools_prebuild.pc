@@ -1,4 +1,4 @@
-prefix=/home/piezo/razbot_tutorials/install
+prefix=/home/nbtky/razbot_tutorials/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

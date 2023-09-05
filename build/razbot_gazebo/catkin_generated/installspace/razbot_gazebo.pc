@@ -1,4 +1,4 @@
-prefix=/home/piezo/razbot_tutorials/install
+prefix=/home/nbtky/razbot_tutorials/install
 
 Name: razbot_gazebo
 Description: Description of razbot_gazebo

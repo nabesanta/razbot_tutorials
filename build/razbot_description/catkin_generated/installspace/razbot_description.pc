@@ -1,4 +1,4 @@
-prefix=/home/piezo/razbot_tutorials/install
+prefix=/home/nbtky/razbot_tutorials/install
 
 Name: razbot_description
 Description: Description of razbot_description

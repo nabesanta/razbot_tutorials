@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "razbot_control"
-PROJECT_SPACE_DIR = "/home/piezo/razbot_tutorials/devel/.private/razbot_control"
+PROJECT_SPACE_DIR = "/home/nbtky/razbot_tutorials/devel/.private/razbot_control"
 PROJECT_VERSION = "0.0.1"

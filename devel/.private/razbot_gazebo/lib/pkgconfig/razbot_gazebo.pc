@@ -1,4 +1,4 @@
-prefix=/home/piezo/razbot_tutorials/devel/.private/razbot_gazebo
+prefix=/home/nbtky/razbot_tutorials/devel/.private/razbot_gazebo
 
 Name: razbot_gazebo
 Description: Description of razbot_gazebo

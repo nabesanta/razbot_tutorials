@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/piezo/razbot_tutorials/src/razbot_description
+CMAKE_SOURCE_DIR = /home/nbtky/razbot_tutorials/src/razbot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/piezo/razbot_tutorials/build/razbot_description
+CMAKE_BINARY_DIR = /home/nbtky/razbot_tutorials/build/razbot_description
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/piezo/razbot_tutorials/build/razbot_description/CMakeFiles /home/piezo/razbot_tutorials/build/razbot_description/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nbtky/razbot_tutorials/build/razbot_description/CMakeFiles /home/nbtky/razbot_tutorials/build/razbot_description/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/piezo/razbot_tutorials/build/razbot_description/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nbtky/razbot_tutorials/build/razbot_description/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

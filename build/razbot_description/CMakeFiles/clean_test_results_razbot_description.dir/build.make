@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/piezo/razbot_tutorials/src/razbot_description
+CMAKE_SOURCE_DIR = /home/nbtky/razbot_tutorials/src/razbot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/piezo/razbot_tutorials/build/razbot_description
+CMAKE_BINARY_DIR = /home/nbtky/razbot_tutorials/build/razbot_description
 
 # Utility rule file for clean_test_results_razbot_description.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/piezo/razbot_tutorials/build/razbot_description
 include CMakeFiles/clean_test_results_razbot_description.dir/progress.make
 
 CMakeFiles/clean_test_results_razbot_description:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/piezo/razbot_tutorials/build/razbot_description/test_results/razbot_description
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/nbtky/razbot_tutorials/build/razbot_description/test_results/razbot_description
 
 clean_test_results_razbot_description: CMakeFiles/clean_test_results_razbot_description
 clean_test_results_razbot_description: CMakeFiles/clean_test_results_razbot_description.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_razbot_description.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_razbot_description.dir/clean
 
 CMakeFiles/clean_test_results_razbot_description.dir/depend:
-	cd /home/piezo/razbot_tutorials/build/razbot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piezo/razbot_tutorials/src/razbot_description /home/piezo/razbot_tutorials/src/razbot_description /home/piezo/razbot_tutorials/build/razbot_description /home/piezo/razbot_tutorials/build/razbot_description /home/piezo/razbot_tutorials/build/razbot_description/CMakeFiles/clean_test_results_razbot_description.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nbtky/razbot_tutorials/build/razbot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nbtky/razbot_tutorials/src/razbot_description /home/nbtky/razbot_tutorials/src/razbot_description /home/nbtky/razbot_tutorials/build/razbot_description /home/nbtky/razbot_tutorials/build/razbot_description /home/nbtky/razbot_tutorials/build/razbot_description/CMakeFiles/clean_test_results_razbot_description.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_razbot_description.dir/depend
 

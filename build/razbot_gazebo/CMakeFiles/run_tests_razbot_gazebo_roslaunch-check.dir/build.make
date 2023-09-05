@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/piezo/razbot_tutorials/src/razbot_gazebo
+CMAKE_SOURCE_DIR = /home/nbtky/razbot_tutorials/src/razbot_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/piezo/razbot_tutorials/build/razbot_gazebo
+CMAKE_BINARY_DIR = /home/nbtky/razbot_tutorials/build/razbot_gazebo
 
 # Utility rule file for run_tests_razbot_gazebo_roslaunch-check.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests_razbot_gazebo_roslaunch-check.dir/clean:
 .PHONY : CMakeFiles/run_tests_razbot_gazebo_roslaunch-check.dir/clean
 
 CMakeFiles/run_tests_razbot_gazebo_roslaunch-check.dir/depend:
-	cd /home/piezo/razbot_tutorials/build/razbot_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piezo/razbot_tutorials/src/razbot_gazebo /home/piezo/razbot_tutorials/src/razbot_gazebo /home/piezo/razbot_tutorials/build/razbot_gazebo /home/piezo/razbot_tutorials/build/razbot_gazebo /home/piezo/razbot_tutorials/build/razbot_gazebo/CMakeFiles/run_tests_razbot_gazebo_roslaunch-check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nbtky/razbot_tutorials/build/razbot_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nbtky/razbot_tutorials/src/razbot_gazebo /home/nbtky/razbot_tutorials/src/razbot_gazebo /home/nbtky/razbot_tutorials/build/razbot_gazebo /home/nbtky/razbot_tutorials/build/razbot_gazebo /home/nbtky/razbot_tutorials/build/razbot_gazebo/CMakeFiles/run_tests_razbot_gazebo_roslaunch-check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests_razbot_gazebo_roslaunch-check.dir/depend
 

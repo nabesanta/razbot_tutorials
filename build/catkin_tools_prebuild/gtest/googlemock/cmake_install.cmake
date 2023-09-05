@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/piezo/razbot_tutorials/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nbtky/razbot_tutorials/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/piezo/razbot_tutorials/build/catkin_tools_prebuild/gtest/googletest/cmake_install.cmake")
+  include("/home/nbtky/razbot_tutorials/build/catkin_tools_prebuild/gtest/googletest/cmake_install.cmake")
 
 endif()
 

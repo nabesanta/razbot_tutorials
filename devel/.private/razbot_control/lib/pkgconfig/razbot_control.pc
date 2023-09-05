@@ -1,4 +1,4 @@
-prefix=/home/piezo/razbot_tutorials/devel/.private/razbot_control
+prefix=/home/nbtky/razbot_tutorials/devel/.private/razbot_control
 
 Name: razbot_control
 Description: Description of razbot_control

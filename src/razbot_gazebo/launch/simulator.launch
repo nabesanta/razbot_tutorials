@@ -14,7 +14,7 @@
     <arg name="output" value="log"/>
   </include>
 
-  <arg name="model" default="$(find razbot_gazebo)/urdf/razbot.gazebo.xacro" />
+  <arg name="model" default="$(find razbot_description)/urdf/razbot.urdf.xacro" />
   <param name="robot_description" command="$(find xacro)/xacro $(arg model)"/>
 
   <!-- Spawn RazBot in gazebo -->

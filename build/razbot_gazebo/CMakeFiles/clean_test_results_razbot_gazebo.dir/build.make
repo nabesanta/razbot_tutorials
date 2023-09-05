@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/piezo/razbot_tutorials/src/razbot_gazebo
+CMAKE_SOURCE_DIR = /home/nbtky/razbot_tutorials/src/razbot_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/piezo/razbot_tutorials/build/razbot_gazebo
+CMAKE_BINARY_DIR = /home/nbtky/razbot_tutorials/build/razbot_gazebo
 
 # Utility rule file for clean_test_results_razbot_gazebo.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/piezo/razbot_tutorials/build/razbot_gazebo
 include CMakeFiles/clean_test_results_razbot_gazebo.dir/progress.make
 
 CMakeFiles/clean_test_results_razbot_gazebo:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/piezo/razbot_tutorials/build/razbot_gazebo/test_results/razbot_gazebo
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/nbtky/razbot_tutorials/build/razbot_gazebo/test_results/razbot_gazebo
 
 clean_test_results_razbot_gazebo: CMakeFiles/clean_test_results_razbot_gazebo
 clean_test_results_razbot_gazebo: CMakeFiles/clean_test_results_razbot_gazebo.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_razbot_gazebo.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_razbot_gazebo.dir/clean
 
 CMakeFiles/clean_test_results_razbot_gazebo.dir/depend:
-	cd /home/piezo/razbot_tutorials/build/razbot_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piezo/razbot_tutorials/src/razbot_gazebo /home/piezo/razbot_tutorials/src/razbot_gazebo /home/piezo/razbot_tutorials/build/razbot_gazebo /home/piezo/razbot_tutorials/build/razbot_gazebo /home/piezo/razbot_tutorials/build/razbot_gazebo/CMakeFiles/clean_test_results_razbot_gazebo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nbtky/razbot_tutorials/build/razbot_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nbtky/razbot_tutorials/src/razbot_gazebo /home/nbtky/razbot_tutorials/src/razbot_gazebo /home/nbtky/razbot_tutorials/build/razbot_gazebo /home/nbtky/razbot_tutorials/build/razbot_gazebo /home/nbtky/razbot_tutorials/build/razbot_gazebo/CMakeFiles/clean_test_results_razbot_gazebo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_razbot_gazebo.dir/depend
 

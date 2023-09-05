@@ -6,11 +6,11 @@
 
   <!-- <property> tags encode important robot paremeters. It's helpful to break
   these out from the rest of the description for easy manipulation -->
-  <property name="M_PI" value="3.14159"/>
+  <xacro:property name="M_PI" value="3.14159"/>
   <!-- Base Size -->
-  <property name="base_length" value="0.184" />
-  <property name="base_width" value="0.120" />
-  <property name="base_height" value="0.068" />
+  <xacro:property name="base_length" value="0.184" />
+  <xacro:property name="base_width" value="0.120" />
+  <xacro:property name="base_height" value="0.068" />
 
   <!-- Wheel Properties -->
   <xacro:property name="wheel_base" value="0.123" />
@@ -79,6 +79,29 @@
 
   <gazebo reference="base_link">
     <material>Gazebo/Blue</material>
+  </gazebo>
+
+  <!-- Gazebo plugin for ROS Control -->
+  <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <robotNamespace>/</robotNamespace>
+    </plugin>
+  </gazebo>
+
+  <!-- Additional plugins, like an IMU sensor, can be loaded here -->
+  <gazebo>
+    <plugin name="imu_controller" filename="libhector_gazebo_ros_imu.so">
+      <robotNamespace>/</robotNamespace>
+      <updateRate>50.0</updateRate>
+      <bodyName>base_link</bodyName>
+      <topicName>imu/data</topicName>
+      <accelDrift>0.005 0.005 0.005</accelDrift>
+      <accelGaussianNoise>0.005 0.005 0.005</accelGaussianNoise>
+      <rateDrift>0.005 0.005 0.005 </rateDrift>
+      <rateGaussianNoise>0.005 0.005 0.005 </rateGaussianNoise>
+      <headingDrift>0.005</headingDrift>
+      <headingGaussianNoise>0.005</headingGaussianNoise>
+    </plugin>
   </gazebo>
 
   <!-- Xacro is an XML macro language that allows us to save effort when creating similar

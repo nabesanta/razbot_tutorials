@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/piezo/razbot_tutorials/src/razbot_gazebo
+CMAKE_SOURCE_DIR = /home/nbtky/razbot_tutorials/src/razbot_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/piezo/razbot_tutorials/build/razbot_gazebo
+CMAKE_BINARY_DIR = /home/nbtky/razbot_tutorials/build/razbot_gazebo
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/piezo/razbot_tutorials/build/razbot_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piezo/razbot_tutorials/src/razbot_gazebo /home/piezo/razbot_tutorials/src/razbot_gazebo /home/piezo/razbot_tutorials/build/razbot_gazebo /home/piezo/razbot_tutorials/build/razbot_gazebo /home/piezo/razbot_tutorials/build/razbot_gazebo/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nbtky/razbot_tutorials/build/razbot_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nbtky/razbot_tutorials/src/razbot_gazebo /home/nbtky/razbot_tutorials/src/razbot_gazebo /home/nbtky/razbot_tutorials/build/razbot_gazebo /home/nbtky/razbot_tutorials/build/razbot_gazebo /home/nbtky/razbot_tutorials/build/razbot_gazebo/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 
