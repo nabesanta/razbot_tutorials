@@ -1,0 +1,3 @@
+Symlinking /home/piezo/razbot_tutorials/devel/lib/pkgconfig/razbot_control.pc
+Symlinking /home/piezo/razbot_tutorials/devel/share/razbot_control/cmake/razbot_controlConfig.cmake
+Symlinking /home/piezo/razbot_tutorials/devel/share/razbot_control/cmake/razbot_controlConfig-version.cmake

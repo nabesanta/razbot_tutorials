@@ -1,0 +1,8 @@
+prefix=/home/piezo/razbot_tutorials/devel/.private/razbot_gazebo
+
+Name: razbot_gazebo
+Description: Description of razbot_gazebo
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

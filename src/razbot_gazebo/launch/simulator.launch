@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Load the RazBot's control configuration -->
+  <include file="$(find razbot_control)/launch/control.launch"/>
+
+  <!-- Start the Gazebo simulator, loading a world -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <!-- <arg name="world_name" value="$(find red_simulation)/worlds/madoana.world"/> -->
+    <!-- <arg name="world_name" value="$(find red_simulation)/worlds/cave.world"/> -->
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="true"/>
+    <arg name="output" value="log"/>
+  </include>
+
+  <arg name="model" default="$(find razbot_gazebo)/urdf/razbot.gazebo.xacro" />
+  <param name="robot_description" command="$(find xacro)/xacro $(arg model)"/>
+
+  <!-- Spawn RazBot in gazebo -->
+  <node name="spawn_razbot" pkg="gazebo_ros" type="spawn_model" args="-unpause -urdf -param robot_description -model razbot"/>
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+</launch>

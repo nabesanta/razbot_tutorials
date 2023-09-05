@@ -1,0 +1,5 @@
+razbot_control
+/home/piezo/razbot_tutorials/devel/.private/razbot_control/cmake.lock /home/piezo/razbot_tutorials/devel/./cmake.lock
+/home/piezo/razbot_tutorials/devel/.private/razbot_control/lib/pkgconfig/razbot_control.pc /home/piezo/razbot_tutorials/devel/lib/pkgconfig/razbot_control.pc
+/home/piezo/razbot_tutorials/devel/.private/razbot_control/share/razbot_control/cmake/razbot_controlConfig.cmake /home/piezo/razbot_tutorials/devel/share/razbot_control/cmake/razbot_controlConfig.cmake
+/home/piezo/razbot_tutorials/devel/.private/razbot_control/share/razbot_control/cmake/razbot_controlConfig-version.cmake /home/piezo/razbot_tutorials/devel/share/razbot_control/cmake/razbot_controlConfig-version.cmake

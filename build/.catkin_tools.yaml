@@ -1,0 +1,6 @@
+devel_space: /home/piezo/razbot_tutorials/devel
+install: false
+install_space: /home/piezo/razbot_tutorials/install
+profile: default
+source_space: /home/piezo/razbot_tutorials/src
+workspace: /home/piezo/razbot_tutorials

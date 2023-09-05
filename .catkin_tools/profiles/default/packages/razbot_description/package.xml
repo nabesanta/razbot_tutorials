@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <name>razbot_description</name>
+  <version>0.0.0</version>
+  <description>Robot description for the RazBot</description>
+
+  <maintainer email="pbovbel@clearpathrobotics.com">Paul Bovbel</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>xacro</run_depend>
+</package>

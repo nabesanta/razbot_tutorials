@@ -1,0 +1,8 @@
+prefix=/home/piezo/razbot_tutorials/install
+
+Name: razbot_control
+Description: Description of razbot_control
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
